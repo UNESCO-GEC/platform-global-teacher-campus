@@ -1,0 +1,10 @@
+[run]
+branch = True
+data_file = .coverage
+source=platform_global_teacher_campus
+omit =
+    platform_global_teacher_campus/settings/test.py
+    */migrations/*
+    *admin.py
+    */static/*
+    */templates/*
